@@ -75,7 +75,7 @@ section {
 
 .main h3 {
     position: relative;
-    left: 270px;
+    left: 210px;
     top: 320px;
 }
 .main h3 {
@@ -237,16 +237,28 @@ width: 100%;
 #MessagefromPia .piah2 {
     justify-content: center;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 40px;
    
 }
 
 .theend {
     background-color: #4c76e9;
+    width: 100%;
+    z-index: 999;
+    overflow: hidden;
  
 }
 
 .theend .title {
+    
     color: white;
+    font-size: 1.4em;
     
 }
+body {
+    overflow: auto;
+}
+
+label {
+    all: unset
+  }
